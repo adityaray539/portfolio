@@ -530,3 +530,7 @@ span{
 .imgstl{
     cursor: pointer;
 }
+
+.imgstl:hover{
+    box-shadow: 0 10px 20px rgba(91, 124, 181, 0.3);
+}
