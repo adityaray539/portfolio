@@ -93,10 +93,6 @@ section{
     animation: floatImage 4s ease-in-out infinite;
 }
 
-.home-img:hover{
-    box-shadow: 0 10px 20px rgba(223, 119, 119, 0.3);
-}
-
 @keyframes floatImage{
     0%{
         transform: translateY(0);
@@ -534,7 +530,3 @@ span{
 .imgstl{
     cursor: pointer;
 }
-
-/* .imgstl:hover{
-    box-shadow: 0 10px 20px rgba(91, 124, 181, 0.3);
-} */
