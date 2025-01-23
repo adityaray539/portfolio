@@ -525,3 +525,8 @@ span{
         margin-top: 2rem;
     }
 }
+
+
+.imgstl{
+    cursor: pointer;
+}
