@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Landing Page</title>
+  <link rel="stylesheet" href="readMore.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>About Me !</h1>
+      <p>I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am
+      dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a
+      meaningful contribution and achieve great things.
+      </p>
+    </div>
+  </header>
+  
+  <section class="skills-section">
+    <h2 style="text-align: center; text-decoration: underline;">Skills</h2>
+    <p style="text-align: center;">Here are some of my skills on which I have been working on for the past 2 years</p>
+    <div class="skills-container">
+  
+      <!-- Front-End Skills -->
+      <div class="skill-box">
+        <button class="skill-toggle">Front-End Development</button>
+        <div class="skill-list">
+          <div class="skill-item">HTML5</div>
+          <div class="skill-item">CSS3</div>
+          <div class="skill-item">JavaScript</div>
+          <div class="skill-item">React.js</div>
+          <div class="skill-item">Bootstrap</div>
+          <div class="skill-item">Tailwind CSS</div>
+        </div>
+      </div>
+  
+      <!-- Back-End Skills -->
+      <div class="skill-box">
+        <button class="skill-toggle">Back-End Development</button>
+        <div class="skill-list">
+          <div class="skill-item">Node.js</div>
+          <div class="skill-item">Express.js</div>
+          <div class="skill-item">MongoDB</div>
+          <div class="skill-item">MySQL</div>
+        </div>
+      </div>
+  
+      <!-- Tools & Technologies -->
+      <div class="skill-box">
+        <button class="skill-toggle">Tools & Technologies</button>
+        <div class="skill-list">
+          <div class="skill-item">Git & GitHub</div>
+          <div class="skill-item">Postman</div>
+          <div class="skill-item">NPM</div>
+          <div class="skill-item">VS Code</div>
+        </div>
+      </div>
+  
+      <!-- UI/UX & Soft Skills -->
+      <div class="skill-box">
+        <button class="skill-toggle">UI/UX & Soft Skills</button>
+        <div class="skill-list">
+          <div class="skill-item">Canva</div>
+          <div class="skill-item">Responsive Web Design</div>
+          <div class="skill-item">Adaptability</div>
+          <div class="skill-item">Problem Solving</div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 My Landing Page. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const toggleButtons = document.querySelectorAll(".skill-toggle");
+
+        toggleButtons.forEach(button => {
+          button.addEventListener("click", function () {
+            const skillList = this.nextElementSibling;
+
+            // Toggle the skill list visibility
+            if (skillList.style.display === "block") {
+              skillList.style.display = "none";
+            } else {
+              skillList.style.display = "block";
+            }
+          });
+        });
+      });
+
+  </script>
+</body>
+</html>
