@@ -60,12 +60,7 @@ ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 // text animation
 
 const typed = new Typed(".multiple-text", {
-  strings: [
-    "Fronted Developer",
-    "Backend Developer",
-    "Data Analyst",
-    "Software Developer",
-  ],
+  strings: ["Fronted Developer", "Backend Developer", "Software Developer"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
